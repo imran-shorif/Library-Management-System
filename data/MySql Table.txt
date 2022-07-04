@@ -1,0 +1,51 @@
+create table book(Book_ID varchar(10), Name varchar(40), Author varchar(30), Publisher varchar(30), Quantity varchar(10));
+
+create table student(Student_ID varchar(10), Name varchar(25), Course varchar(10), Department varchar(10), Year varchar(10), Semester varchar(10));
+
+
+create table issueBook(Book_ID varchar(10), BookName varchar(40), Student_ID varchar(10),  StudentName varchar(40), Course varchar(20), Department varchar(10), DateOfIssue varchar(40));
+
+
+
+create table returnBook(Book_ID varchar(10), BookName varchar(40), Student_ID varchar(10),  StudentName varchar(40),Course varchar(20), Department varchar(10), DateOfIssue varchar(30), DateOfReturn varchar(30));
+
+
+create table librarian(Name varchar(20),UserName varchar(20), Password varchar(25), Email varchar(25), Address varchar(25), ContactNo varchar(25));
+
+
+
+
+INSERT INTO Customers (CustomerName, City, Country)
+VALUES ('Cardinal', 'Stavanger', 'Norway');
+
+
+drop table table_naem;
+
+
+create table vlibrarian(Librarian_ID varchar(10), Name varchar(40), Phone varchar(30), Email varchar(30), Password varchar(30));
+
+
+
+create table vbook(Book_ID varchar(10), Title varchar(40), Author varchar(30), Page varchar(30));
+
+
+
+
+create table vstudent(Student_ID varchar(10), Name varchar(40), Phone varchar(30), Email varchar(30), Password varchar(30));
+
+
+
+create table vissuebook(Student_ID varchar(10),Book_ID varchar(10), Name varchar(30), Title varchar(30), Issued_Date varchar(30), Return_Date varchar(30));
+
+
+
+
+
+
+
+
+
+
+
+
+
